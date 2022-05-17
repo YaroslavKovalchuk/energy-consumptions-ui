@@ -1,0 +1,222 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.blue-white-background-color {
+    background: linear-gradient(to bottom, #0099ff 0%, #fff 100%);
+    height: 100vh;
+}
+
+/* -------------------MAIN HEADER--------------------- */
+
+.main-header {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+}
+
+.header-barnd {
+    min-height: 90px;
+    padding-left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.header-logo {
+    position: absolute;
+    left: 25px;
+    width: 155px;
+    max-height: 90px;
+}
+
+.header-site-name {
+    color: rgb(255, 255, 255);
+}
+
+
+.nav a {
+    height: 45px;
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center; 
+    color: #111111 !important;
+    text-decoration: none;
+    background: #f0f0f0;
+    border-radius: 4px;
+    padding: 4px 10px;
+    margin-right: 10px;
+  }
+  
+  .nav a.active {
+    color: #fff !important;
+    border: 1px solid rgba(255, 255, 255, 0.507);;
+    background: rgba(33,37,41, 1);
+  }
+
+  .nav a:active{
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.507);;
+    background: rgba(33,37,41, 1); 
+  }
+
+.btn-sing-out {
+    height: 45px;
+    margin-left: 25px;
+}
+
+.btn-navbar-toggle {
+    position: absolute;
+    left: 10px;
+}
+
+.btn-fliter-mark {
+    width: 400px;
+    height: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 8px;
+    color: #111111
+}
+
+.btn-cancel-filter {
+    position: relative ;
+    right: -10px;
+}
+
+@media (max-width: 1650px) {
+    .header-barnd {
+        width: 40%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .header-barnd {
+        width: 35%;
+    }
+}
+
+@media (max-width: 1300px) {
+
+    .header-logo {
+        visibility: hidden;
+    }
+    
+    .header-barnd {
+        padding-left: 20px;
+    }
+
+    .nav a {
+        margin: 10px;
+    }
+
+    .btn-sing-out {
+       margin: 10px;
+    }
+
+    
+}
+
+@media (max-width: 765px) {
+    
+    .header-barnd {
+        width: 100%;
+    }
+    
+    .header-barnd {
+        padding-left: 60px;
+    }
+
+    .btn-sing-out {
+        width: 100%;
+        height: 35px;
+        margin-left: 0;
+    }
+
+}
+
+
+/* -------------------LOGIN PAGE--------------------- */
+
+.login-header {
+    background-color: rgba(33,37,41);
+    min-height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-body {
+    min-height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 500px;
+}
+
+.login-form input,
+button {
+    height: 60px;
+}
+
+
+/* -------------------Temp PAGE--------------------- */
+
+.temp {
+    display: flex;
+    flex-direction: row;
+    /* min-height: 100%; */
+}
+
+.sidebar-nav { 
+    position: relative;
+    top:-20px;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-nav a{
+    min-height: 52px;
+    margin: 20px;
+    border: solid black 1px;
+}
+
+
+.btn-filter {
+    margin: 0 auto;
+    margin: 20px;
+    width: 200px;
+}
+
+.filter-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-calendar {
+    font-size: 15px !important;
+}
+
+.fa-circle-down, .fa-circle-up{
+    position: relative;
+    left: 10px;
+    color: rgba(255, 0, 0, 0.61);
+}
+/* -------------------MAIN PAGE--------------------- */
+
+.temperature-table {
+    border-color: #41464b7a;
+}
+
+.temperature-tabs {
+    margin-top: 20px;
+}
+
+th{
+    font-weight: 500;
+}
